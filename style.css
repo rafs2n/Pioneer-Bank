@@ -7,3 +7,27 @@ body{
 .title h4{
     margin-bottom: 40px;
 }
+
+#login-area{
+    display: none;
+}
+
+.deposit{
+    background-color: slateblue;
+    color: white;
+}
+.withdraw{
+    background-color: darksalmon;
+    color: white;
+}
+.balance{
+    background-color: darkorange;
+    color: white;
+}
+
+@media screen and (max-width: 992px){
+    .card-responsive{
+        max-width: 50%;
+        margin: auto;
+    }
+}
