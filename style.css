@@ -34,9 +34,9 @@ body{
     color: #555;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 993px){
     .card-responsive{
-        max-width: 50%;
+        max-width: 75%;
         margin: auto;
     }
     card-responsive2{
