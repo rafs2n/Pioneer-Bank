@@ -1,5 +1,5 @@
 body{
-    padding: 200px 20px;
+    padding: 150px 20px;
 }
 .login-form{
     box-shadow: 5px 5px 10px gray;
@@ -8,9 +8,9 @@ body{
     margin-bottom: 40px;
 }
 
-#login-area{
+/* #login-area{
     display: none;
-}
+} */
 
 .deposit{
     background-color: slateblue;
@@ -29,5 +29,11 @@ body{
     .card-responsive{
         max-width: 50%;
         margin: auto;
+    }
+    card-responsive2{
+        max-width: 60%;
+    }
+    .full-width{
+        width: 100%;
     }
 }

@@ -41,11 +41,11 @@
             <h4 class="text-center">Dashboard</h4>
             <hr>
             <div class="row mt-5">
-                <div class="col-lg-4 col-12 mb-4 justify-content-sm-center">
+                <div class="col-lg-4 col-12 mb-4">
                     <div class="card deposit card-responsive">
                         <div class="card-body">
                             <h5>Deposit</h5>
-                            <h2>$ <span id="current-deposit">100.00</span></h2>
+                            <h2>$<span id="current-deposit">12500.00</span></h2>
                         </div>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
                     <div class="card withdraw card-responsive">
                         <div class="card-body">
                             <h5>Withdraw</h5>
-                            <h2>$0.00</h2>
+                            <h2>$<span id="withdraw">0.00</span></h2>
                         </div>
                     </div>
                 </div>
@@ -61,33 +61,36 @@
                     <div class="card balance card-responsive">
                         <div class="card-body">
                             <h5>Balance</h5>
-                            <h2>$2500.00</h2>
+                            <h2>$<span id="old-balance">12500.00</span></h2>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row mt-4">
-            <div class="col-lg-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5>Deposit</h5>
-                        <div class="form-group">
-                            <input id="deposit-amount" type="number" class="form-control" placeholder="$ 0.00">
+
+            <div class="row mt-4">
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card card-responsive2">
+                        <div class="card-body">
+                            <h5>Deposit</h5>
+                            <div class="form-group">
+                                <input id="deposit-amount" type="number" class="form-control" placeholder="$ 0.00">
+                            </div>
+                            <button id="deposit" type="submit"
+                                class="btn btn-success btn-sm full-width">Deposit</button>
                         </div>
-                        <button id="deposit" type="submit" class="btn btn-success btn-sm">Deposit</button>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5>Withdraw</h5>
-                        <div class="form-group">
-                            <input type="number" class="form-control" placeholder="$ 0.00">
+                <div class="col-lg-6 col-md-6">
+                    <div class="card card-responsive2">
+                        <div class="card-body">
+                            <h5>Withdraw</h5>
+                            <div class="form-group">
+                                <input id="withdraw-amount" type="number" class="form-control" placeholder="$ 0.00">
+                            </div>
+                            <button id="withdraw-btn" type="submit"
+                                class="btn btn-success btn-sm full-width">Withdraw</button>
                         </div>
-                        <button type="submit" class="btn btn-success btn-sm">Withdraw</button>
                     </div>
                 </div>
             </div>
