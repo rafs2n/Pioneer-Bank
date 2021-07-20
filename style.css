@@ -33,6 +33,9 @@ body{
     font-size: 15px;
     color: #555;
 }
+#heart{
+    color: red;
+}
 
 @media screen and (max-width: 993px){
     .card-responsive{
